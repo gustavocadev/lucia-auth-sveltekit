@@ -18,7 +18,7 @@ export const actions = {
 		>;
 
 		try {
-			const key = await auth.validateKeyPassword('username', username, password);
+			const key = await auth.useKey('username', username, password);
 
 			const session = await auth.createSession(key.userId);
 

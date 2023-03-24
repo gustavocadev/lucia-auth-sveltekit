@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
+		"@sveltejs/kit": "^1.13.0",
 		"@typescript-eslint/eslint-plugin": "^5.50.0",
 		"@typescript-eslint/parser": "^5.50.0",
 		"eslint": "^8.33.0",
@@ -22,19 +22,19 @@
 		"prettier": "^2.8.3",
 		"prettier-plugin-svelte": "^2.9.0",
 		"prisma": "^4.9.0",
-		"svelte": "^3.55.1",
+		"svelte": "^3.57.0",
 		"svelte-check": "^3.0.3",
 		"tslib": "^2.5.0",
-		"typescript": "^4.9.5",
+		"typescript": "^5.0.2",
 		"vite": "^4.1.1"
 	},
 	"type": "module",
 	"dependencies": {
-		"@lucia-auth/adapter-prisma": "^0.4.0",
-		"@lucia-auth/sveltekit": "^0.6.3",
+		"@lucia-auth/adapter-prisma": "^0.6.1",
+		"@lucia-auth/sveltekit": "^0.6.11",
 		"@picocss/pico": "^1.5.7",
-		"@prisma/client": "^4.9.0",
+		"@prisma/client": "^4.11.0",
 		"add": "^2.0.6",
-		"lucia-auth": "^0.6.0"
+		"lucia-auth": "^0.10.0"
 	}
 }

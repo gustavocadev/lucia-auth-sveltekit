@@ -18,10 +18,7 @@ declare global {
 	declare namespace Lucia {
 		type Auth = import('./lib/server/lucia').Auth;
 		// eslint-disable-next-line @typescript-eslint/ban-types
-		type UserAttributes = {
-			username: string;
-			name: string;
-		};
+		type UserAttributes = Omit<import("@prisma/client").User, "id">
 	}
 }
 
